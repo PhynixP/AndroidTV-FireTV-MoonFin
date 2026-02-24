@@ -616,4 +616,378 @@
     <string name="video_player_internal">Eingebauter Videoplayer</string>
     <string name="video_player_external">Externe App</string>
     <string name="filters">Filter</string>
+
+<!-- Media Bar Slideshow -->
+    <string name="pref_media_bar_title">Medienleiste</string>
+    <string name="pref_media_bar_enable">Aktiviere die Diashow in der Medienleiste auf dem Startbildschirm</string>
+    <string name="pref_media_bar_enable_summary">Zeige oben auf dem Startbildschirm eine Diashow mit ausgewählten Inhalten an.</string>
+    <string name="pref_media_bar_content_type">Inhaltstyp</string>
+    <string name="pref_media_bar_item_count">Anzahl der Filme im Karussell</string>
+    <string name="pref_media_bar_item_count_summary">Wie viele ausgewählte Filme/Serien sollen im Karussell angezeigt werden?</string>
+    <string name="pref_media_bar_5_items">5 Stück</string>
+    <string name="pref_media_bar_10_items">10 Stück</string>
+    <string name="pref_media_bar_15_items">15 Stück</string>
+    <string name="pref_media_bar_overlay_opacity">Overlay-Deckkraft</string>
+    <string name="pref_media_bar_overlay_opacity_summary">Transparenzgrad für Infobox, Pfeile und Punkte</string>
+    <string name="pref_media_bar_opacity_30">30% - Leicht</string>
+    <string name="pref_media_bar_opacity_40">40%</string>
+    <string name="pref_media_bar_opacity_50">50% - Standart</string>
+    <string name="pref_media_bar_opacity_60">60%</string>
+    <string name="pref_media_bar_opacity_70">70% - Dunkel</string>
+    <string name="pref_media_bar_overlay_color">Overlay-Farbe</string>
+    <string name="pref_media_bar_overlay_color_summary">Hintergrundfarbe fürs Overlay</string>
+    <string name="pref_media_bar_color_black">Schwarz</string>
+    <string name="pref_media_bar_color_gray">Grau</string>
+    <string name="pref_media_bar_color_dark_blue">Dunkelblau</string>
+    <string name="pref_media_bar_color_purple">Lila</string>
+    <string name="pref_media_bar_color_teal">Blaugrün</string>
+    <string name="pref_media_bar_color_navy">Marine</string>
+    <string name="pref_media_bar_color_charcoal">Holzkohle-farbend</string>
+    <string name="pref_media_bar_color_brown">Braun</string>
+    <string name="pref_media_bar_color_dark_red">Dunkelrot</string>
+    <string name="pref_media_bar_color_dark_green">Dunkelgrün</string>
+    <string name="pref_media_bar_color_slate">Schiefer-farbend</string>
+    <string name="pref_media_bar_color_indigo">Indigo-farbend</string>
+    <string name="lbl_media_bar_loading">Inhalte werden geladen…</string>
+    <string name="lbl_media_bar_error">Inhalte konnten nicht geladen werden.</string>
+    <string name="lbl_media_bar_previous">Vorschieben</string>
+    <string name="lbl_media_bar_next">Zurückschieben</string>
+    <string name="lbl_media_bar_pause">Diashow anhalten</string>
+    <string name="lbl_media_bar_play">Diashow weiter</string>
+    <string name="pref_media_bar_trailer_preview">Trailer-Vorschau</string>
+    <string name="pref_media_bar_trailer_preview_summary">Stumme YouTube-Trailer nach 4 Sekunden abspielen, sowie Intros überspringen.</string>
+    <string name="pref_episode_preview">Episoden-Vorschau</string>
+    <string name="pref_episode_preview_summary">Spiele ein stummes Vorschau-Video ab und überspringe die Einführungssegmente.</string>
+    <string name="pref_preview_audio">Audio-Vorschau</string>
+    <string name="pref_preview_audio_summary">Aktiviere den Ton bei Trailern in der Medienleiste sowie der Video-Vorschau</string>
+
+    <!-- Theme Music Settings -->
+    <string name="pref_theme_music_title">Theme-Musik</string>
+    <string name="pref_theme_music_enable">Aktiviere Musik in der Theme</string>
+    <string name="pref_theme_music_enable_summary">Beim Anzeigen von Mediendetails wird Hintergrundmusik abgespielt.</string>
+    <string name="pref_theme_music_volume">Lautstärke der Theme-Musik</string>
+    <string name="pref_theme_music_volume_summary">Passe die Lautstärke der Hintergrundmusik an (Standard: 30 %).</string>
+    <string name="pref_theme_music_on_home_rows">Spiele ab auf Heim-Reihen</string>
+    <string name="pref_theme_music_on_home_rows_summary">Spielt die Titelmusik ab, wenn ihr euch auf Gegenstände in der Grundreihe konzentriert.</string>
+
+    <!-- Jellyseerr Settings -->
+    <string name="jellyseerr">Jellyseerr/Seerr</string>
+    <string name="home">Home</string>
+    <string name="search">Suchen</string>
+    <string name="jellyseerr_settings">Jellyseerr</string>
+    <string name="jellyseerr_settings_description">Authentifizierung, Zeilen &amp; Volle Konfiguration</string>
+    <string name="jellyseerr_server_settings">Server Konfiguration</string>
+    <string name="jellyseerr_enabled">Aktiviere Seerr</string>
+    <string name="jellyseerr_enabled_description">Serr-Integration in der App anzeigen</string>
+    <string name="jellyseerr_server_url">Server URL</string>
+    <string name="jellyseerr_server_url_description">Seerr Server Addresse (z.B., http://192.168.1.100:5055)</string>
+    <string name="jellyseerr_password">Passwort</string>
+    <string name="jellyseerr_password_description">Dein Jellyfin Passwort für die Seerr Authentifizierung </string>
+    <string name="jellyseerr_test_connection">Testverbindung</string>
+    <string name="jellyseerr_test_connection_description">Testverbindung zum Seerr Server</string>
+    <string name="jellyseerr_connection_success">Erfolgreich mit Seerr Server verbunden!</string>
+    <string name="jellyseerr_fill_fields">Bitte geben Sie die Server-URL und den API-Key ein</string> 
+    <string name="jellyseerr_search_results">Seerr</string>
+    <string name="jellyseerr_connect_jellyfin">Mit Jellyfin anmelden</string>
+    <string name="jellyseerr_connect_jellyfin_description">Automatische Authentifizierung mit aktuellen Jellyfin-Konto für ca. 30 Tage</string>
+    <string name="jellyseerr_connection_error">Es konnte keine Verbindung zum Seerr Server hergestellt werden. Versuche es über die Einstellungen erneut.</string>
+    <string name="jellyseerr_setup_title">So verbinden Sie sich</string>
+    <string name="jellyseerr_setup_info">Gebe oben die Seerr-Server-URL und das Jellyfin-Passwort ein. Teste die Verbindung, um sich zu authentifizieren und die Sitzung zu speichern.</string>
+    <string name="jellyseerr_show_in_toolbar">Seerr in der Symbolleiste anzeigen</string>
+    <string name="jellyseerr_show_in_toolbar_description">Seerr-Knopf in der Hauptnavigationsleiste anzeigen</string>
+    <string name="jellyseerr_fetch_limit_title">Elemente pro Zeile (3 Seiten pro Kategorie geladen)</string>
+    <string name="jellyseerr_fetch_limit_description">Anzahl der Elemente, die pro API-Anfrage abgerufen werden (es werden 3 Seiten gleichzeitig geladen)</string>
+    <string name="jellyseerr_fetch_limit_25">25 Elemente</string>
+    <string name="jellyseerr_fetch_limit_50">50 Elemente</string>
+    <string name="jellyseerr_fetch_limit_75">75 Elemente</string>
+    <string name="jellyseerr_block_nsfw">Erwachsenen-Inhalt blockieren</string>
+    <string name="jellyseerr_block_nsfw_description">Inhalte, die als „nicht jugendfrei“ gekennzeichnet sind, aus den Seerr-Ergebnissen ausblenden</string>
+
+    <!-- Plugin Settings -->
+    <string name="pref_plugin_settings">Plugin</string>
+    <string name="pref_plugin_description">Einstellungen werden über das Moonfin-Server-Plugin synchronisiert.</string>
+    <string name="pref_plugin_sync_enable">Antiviere Sync-Plugin</string>
+    <string name="pref_plugin_sync_description">Synchronisiere die Einstellungen mit dem Moonfin-Server-Plugin.</string>
+
+    <!-- Moonfin Settings -->
+    <string name="moonfin_settings">Moonfin Einstellungen</string>
+    <string name="moonfin_settings_description">Moonfin-spezifische Funktionen anpassen</string>
+    <string name="moonfin_general_settings">Generell</string>
+    <string name="settings_available_after_login">Einstellungen nach Anmeldung verfügbar</string>
+
+    <!-- Jellyseerr Authentication -->
+    <string name="jellyseerr_auth_method">Authentication Method</string>
+    <string name="jellyseerr_auth_method_description">Choose how to authenticate with Jellyseerr</string>
+    <string name="jellyseerr_auth_jellyfin">Jellyfin SSO</string>
+    <string name="jellyseerr_auth_jellyfin_description">Login with your Jellyfin account (cookie-based, 30-day expiration)</string>
+    <string name="jellyseerr_auth_local">Local Account</string>
+    <string name="jellyseerr_auth_local_description">Login with Jellyseerr email/password (permanent API key)</string>
+    <string name="jellyseerr_auto_api_key">Auto-Generate API Key</string>
+    <string name="jellyseerr_auto_api_key_description">After Jellyfin login, generate permanent API key (requires admin permissions)</string>
+    <string name="jellyseerr_regenerate_api_key">Regenerate API Key</string>
+    <string name="jellyseerr_regenerate_api_key_description">Generate permanent API key (requires admin permissions in Jellyseerr)</string>
+    <string name="jellyseerr_local_email">Email</string>
+    <string name="jellyseerr_local_email_description">Your Jellyseerr account email</string>
+    <string name="jellyseerr_local_password">Local Password</string>
+    <string name="jellyseerr_local_password_description">Your Jellyseerr account password (not Jellyfin)</string>
+    <string name="jellyseerr_api_key_status">API Key Status</string>
+    <string name="jellyseerr_api_key_present">Permanent API key active</string>
+    <string name="jellyseerr_api_key_absent">Using cookie-based auth (expires in ~30 days)</string>
+    <string name="jellyseerr_not_logged_in">Not logged in</string>
+    <string name="jellyseerr_login_local">Login with Local Account</string>
+    <string name="jellyseerr_login_local_description">Authenticate using email and password</string>
+    <string name="jellyseerr_login_api_key">Login with API Key</string>
+    <string name="jellyseerr_login_api_key_description">Use a permanent API key from Jellyseerr settings</string>
+    <string name="jellyseerr_api_key_input">API Key</string>
+    <string name="jellyseerr_api_key_input_description">Get this from Jellyseerr web UI under Settings → General</string>
+    <string name="jellyseerr_logout">Log Out</string>
+    <string name="jellyseerr_logout_description">Clear all Jellyseerr authentication data and cookies</string>
+    <string name="jellyseerr_logout_success">Logged out of Jellyseerr successfully</string>
+    <string name="jellyseerr_logout_confirm_title">Log Out of Jellyseerr?</string>
+    <string name="jellyseerr_logout_confirm_message">This will clear all authentication data and cookies. You will need to log in again to use Jellyseerr.</string>
+
+    <!-- Jellyseerr Moonfin Proxy -->
+    <string name="jellyseerr_moonfin_proxy">Moonfin Proxy</string>
+    <string name="jellyseerr_moonfin_proxy_status">Connection managed by Moonfin server plugin</string>
+    <string name="jellyseerr_moonfin_connected">Connected as %s</string>
+    <string name="jellyseerr_moonfin_not_authenticated">Not authenticated — login required on server</string>
+    <string name="jellyseerr_moonfin_disconnect">Disconnect Moonfin Proxy</string>
+    <string name="jellyseerr_moonfin_disconnect_description">Stop using the server plugin proxy and return to direct connection mode</string>
+    <string name="jellyseerr_moonfin_reconnect">Connect via Moonfin Plugin</string>
+    <string name="jellyseerr_moonfin_reconnect_description">Reconnect Jellyseerr through the Moonfin server plugin proxy</string>
+    <string name="jellyseerr_moonfin_reconnect_success">Connected via Moonfin plugin</string>
+    <string name="jellyseerr_moonfin_reconnect_failed">Failed to connect via Moonfin plugin</string>
+    <string name="jellyseerr_moonfin_not_enabled">Jellyseerr not enabled on server plugin</string>
+
+    <!-- Jellyseerr Advanced Settings -->
+    <string name="jellyseerr_advanced_settings">Advanced Request Settings</string>
+    <string name="jellyseerr_advanced_settings_description">Configure custom quality profiles, root folders, and servers for requests</string>
+    <string name="jellyseerr_hd_movie_profile">HD Movie Profile</string>
+    <string name="jellyseerr_hd_movie_profile_description">Quality profile for HD movie requests (uses server default if not set)</string>
+    <string name="jellyseerr_4k_movie_profile">4K Movie Profile</string>
+    <string name="jellyseerr_4k_movie_profile_description">Quality profile for 4K movie requests (uses server default if not set)</string>
+    <string name="jellyseerr_hd_tv_profile">HD TV Profile</string>
+    <string name="jellyseerr_hd_tv_profile_description">Quality profile for HD TV requests (uses server default if not set)</string>
+    <string name="jellyseerr_4k_tv_profile">4K TV Profile</string>
+    <string name="jellyseerr_4k_tv_profile_description">Quality profile for 4K TV requests (uses server default if not set)</string>
+    <string name="jellyseerr_profile_default">Server Default</string>
+    <string name="jellyseerr_profile_loading">Loading profiles…</string>
+    <string name="jellyseerr_profile_error">Unable to load profiles. Check connection.</string>
+    <string name="jellyseerr_profile_admin_required">Admin permissions required to configure quality profiles</string>
+
+    <!-- Jellyseerr Row Configuration -->
+    <string name="jellyseerr_rows_title">Discover Rows</string>
+    <string name="jellyseerr_rows_description">Enable, disable, and reorder rows on the Jellyseerr discover screen</string>
+    <string name="jellyseerr_rows_reset">Reset to Defaults</string>
+    <string name="jellyseerr_row_recent_requests">Recent Requests</string>
+    <string name="jellyseerr_row_trending">Trending</string>
+    <string name="jellyseerr_row_popular_movies">Popular Movies</string>
+    <string name="jellyseerr_row_movie_genres">Movie Genres</string>
+    <string name="jellyseerr_row_upcoming_movies">Upcoming Movies</string>
+    <string name="jellyseerr_row_studios">Studios</string>
+    <string name="jellyseerr_row_popular_series">Popular Series</string>
+    <string name="jellyseerr_row_series_genres">Series Genres</string>
+    <string name="jellyseerr_row_upcoming_series">Upcoming Series</string>
+    <string name="jellyseerr_row_networks">Networks</string>
+
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+
+    <!-- Appearance Settings -->
+    <string name="pref_appearance">Aussehen</string>
+    <string name="pref_visual_settings">Visuelle Einstellungen</string>
+    <string name="pref_background_blur_amount">Hintergrundunschärfe</string>
+    <string name="pref_background_blur_amount_description">Steuern Sie die Unschärfeintensität für alle Hintergrundbilder in der gesamten App.</string>
+    <string name="pref_browsing_background_blur_amount">Startseite und Seerr Hintergrundunschärfe</string>
+    <string name="pref_browsing_background_blur_amount_description">Unschärfeintensität für Startbildschirm und Entdeckungshintergründe</string>
+        <string name="pref_details_background_blur_amount">Mediendetails Hintergrundunschärfe</string>
+    <string name="pref_details_background_blur_amount_description">Unschärfeintensität für Film, Fernsehserien und Episodendetailseiten</string>
+    <string name="pref_blur_none">Keiner</string>
+    <string name="pref_blur_light">Leicht</string>
+    <string name="pref_blur_medium">Mittel</string>
+    <string name="pref_blur_strong">Hoch</string>
+    <string name="pref_blur_extra_strong">Extra-Hoch</string>
+
+    <!-- Additional Ratings -->
+    <string name="pref_enable_additional_ratings">Aktiviere Zusätzliche-Bewertung </string>
+    <string name="pref_enable_additional_ratings_description">Bewertungen über die MDBList-API abrufen(IMDB, TMDB, Metacritic, Trakt, Letterboxd, etc.)</string>
+    <string name="pref_mdblist_api_key">MDBList API Key</string>
+    <string name="pref_mdblist_api_key_description">Erhalte einen kostenlosen API-Key unter (mdblist.com/preferences)</string>
+    <string name="pref_additional_ratings_no_api_key">Bitte füge den MDBList-API-Key in die Moonfin-Einstellungen hinzu.</string>
+    <string name="pref_rating_source_imdb">IMDB</string>
+    <string name="pref_rating_source_rt_audience">Rotten Tomatoes</string>
+    <string name="pref_rating_source_tmdb">TMDb</string>
+    <string name="pref_rating_source_metacritic">Metacritic</string>
+    <string name="pref_rating_source_metacritic_user">Metacritic User</string>
+    <string name="pref_rating_source_trakt">Trakt</string>
+    <string name="pref_rating_source_letterboxd">Letterboxd</string>
+    <string name="pref_rating_source_rogerebert">Roger Ebert</string>
+    <string name="pref_rating_source_myanimelist">MyAnimeList</string>
+    <string name="pref_rating_source_anilist">AniList</string>
+
+    <string name="pref_show_rating_labels">Bewertungslabels anzeigen</string>
+    <string name="pref_show_rating_labels_description">Zeige den Quellennamen unterhalb jedes Bewertungswerts an.</string>
+
+    <!-- Episode Ratings -->
+    <string name="pref_episode_ratings">Episoden-Bewertung</string>
+    <string name="pref_episode_ratings_description">TMDB-Bewertungen für einzelne TV-Episoden anzeigen</string>
+    <string name="pref_tmdb_api_key">TMDB API Key</string>
+    <string name="pref_tmdb_api_key_description">Erhalte einen kostenlosen API-Key unter (themoviedb.org)</string>
+    <string name="pref_tmdb_api_key_label">API Key</string>
+    <string name="pref_tmdb_api_key_hint"> TMDB API Key eingeben</string>
+    <string name="lbl_clear">Löschen</string>
+    <string name="msg_api_key_saved">API Key gespeichert</string>
+    <string name="msg_api_key_cleared">API Key gelöscht</string>
+    <string name="msg_api_key_invalid">API Key muss 16 Zeichen enthalten</string>
+
+    <!-- Toolbar Customization -->
+    <string name="pref_toolbar_customization">Toolbar Customization</string>
+    <string name="pref_navbar_position">Navigation Bar Position</string>
+    <string name="pref_navbar_position_description">Choose where the navigation bar appears</string>
+    <string name="pref_navbar_position_top">Top</string>
+    <string name="pref_navbar_position_left">Left Sidebar</string>
+    <string name="home_section_settings">Hauptmenü</string>
+    <string name="pref_confirm_exit">Confirm Exit</string>
+    <string name="pref_confirm_exit_description">Show confirmation dialog when exiting the app</string>
+    <string name="pref_multi_server_libraries">Enable Cross Server Playback</string>
+    <string name="pref_multi_server_libraries_description">Display libraries and content from all logged-in servers in the home screen and toolbar</string>
+    <string name="pref_enable_folder_view">Show Folder View</string>
+    <string name="pref_enable_folder_view_description">Add a Folders entry to browse media by folder structure</string>
+    <string name="lbl_folders">Verzeichnis</string>
+    <string name="msg_no_folders">Keine Ordner gefunden</string>
+    <string name="pref_show_shuffle_button">Show Shuffle Button</string>
+    <string name="pref_show_shuffle_button_description">Display shuffle button in main toolbar</string>
+    <string name="pref_show_genres_button">Show Genres Button</string>
+    <string name="pref_show_genres_button_description">Display genres button in main toolbar</string>
+    <string name="pref_show_favorites_button">Show Favorites Button</string>
+    <string name="pref_show_favorites_button_description">Display favorites button in main toolbar</string>
+    <string name="pref_shuffle_content_type">Shuffle Content Type</string>
+    <string name="pref_shuffle_content_type_description">Choose which content types to include when shuffling</string>
+    <string name="pref_shuffle_movies">Filme</string>
+    <string name="pref_shuffle_tv">Serien</string>
+    <string name="pref_shuffle_both">Filme + Serien</string>
+
+    <!-- Update Checker -->
+    <string name="pref_updates_title">Programm Updates</string>
+    <string name="pref_updates_info">Version Information</string>
+    <string name="pref_updates_check">Update Check</string>
+    <string name="pref_current_version">Aktuelle Version</string>
+    <string name="pref_check_for_updates">Nach Updates suchen</string>
+    <string name="pref_check_for_updates_description">Duchsuche GitHub für neue Versionen</string>
+    <string name="msg_checking_for_updates">Suche Updates…</string>
+    <string name="msg_update_check_failed">Update-Suche fehlgeschlagen…</string>
+    <string name="msg_no_updates_available">Aktuelle Version installiert</string>
+    <string name="msg_update_available">Update verfügbar: v%s</string>
+    <string name="msg_update_size">Größe: %s MB</string>
+    <string name="msg_release_notes">Release-Notes:</string>
+    <string name="title_update_available">Update Verfügbar</string>
+    <string name="btn_download">Download</string>
+    <string name="btn_view_release_notes">Release-Notes Anzeigen</string>
+    <string name="btn_download_and_install">Download &amp; Installiere</string>
+    <string name="btn_later">Später</string>
+    <string name="btn_view_on_github">Auf GitHub anzeigen</string>
+    <string name="msg_downloading_update">Downloade Update…</string>
+    <string name="msg_update_downloaded">Update runtergeladen. Öffne Installer…</string>
+    <string name="msg_download_failed">Download fehlgeschladen</string>
+    <string name="msg_install_permission_required">Installationsberechtigung erforderlich</string>
+    <string name="msg_install_permission_required_description">Um Updates installieren zu können, Muss die Option "Installation von Apps aus unbekannten Quellen zulassen" aktiviert sein.</string>
+    <string name="btn_open_settings">Öffne Einstellungen</string>
+    <string name="msg_failed_to_open_url">URL konnte nicht geöffnet werden</string>
+    <string name="msg_failed_to_open_settings">Einstellungen konnten nicht geöffnet werden</string>
+    <string name="notification_channel_updates">Programm Updates</string>
+    <string name="notification_channel_updates_description">Nachricht bei Programm-Updates</string>
+    <string name="notification_update_available_title">Update Verfügbar</string>
+    <string name="notification_update_available_text">Version %s ist verfügbar. drücke OK zum updaten.</string>
+
+    <!-- Parental Controls -->
+    <string name="pref_parental_controls">Kindersicherung</string>
+    <string name="pref_parental_controls_description">Inhalte auf Grundlage der Bewertung ausblenden</string>
+    <string name="pref_parental_controls_category_ratings">Inhalts-Bewertungen</string>
+    <string name="pref_parental_controls_loading">Bewertungen werden geladen…</string>
+    <string name="pref_parental_controls_no_ratings">Keine Bewertungen für die Bibliotheken gefunden.</string>
+    <string name="pref_parental_controls_rating_blocked">Geblockt</string>
+    <string name="pref_parental_controls_rating_allowed">Erlaubt</string>
+    <string name="pref_parental_controls_category_info">Information</string>
+    <string name="pref_parental_controls_info_description">Die ausgewählten Bewertungen werden auf allen Servern auf der Startseite, der Bibliotheken, der Suche und der Medienleiste ausgeblendet.</string>
+
+    <!-- Seasonal Surprise -->
+    <string name="pref_seasonal_surprise">Saison Überraschung</string>
+    <string name="pref_seasonal_surprise_description">Dekorative Saison-Animationen auf dem Startbildschirm. Deaktiviere diese Option, falls es zu Verzögerungen kommt.</string>
+    <string name="pref_seasonal_none">Keine</string>
+    <string name="pref_seasonal_winter">Winter ❄️</string>
+    <string name="pref_seasonal_spring">Frühling 🌸</string>
+    <string name="pref_seasonal_summer">Sommer ☀️</string>
+    <string name="pref_seasonal_halloween">Halloween 🎃</string>
+    <string name="pref_seasonal_fall">Herbst 🍁</string>
+
+    <!-- SyncPlay Settings -->
+    <string name="pref_syncplay">SyncPlay</string>
+    <string name="pref_syncplay_settings">SyncPlay Settings</string>
+    <string name="pref_syncplay_description">Watch together with friends in sync</string>
+    <string name="pref_syncplay_enabled">Enable SyncPlay</string>
+    <string name="pref_syncplay_enabled_description">Allow synchronized playback with other users</string>
+    <string name="pref_syncplay_playback_settings">Playback Synchronization</string>
+    <string name="pref_syncplay_sync_correction">Enable sync correction</string>
+    <string name="pref_syncplay_sync_correction_description">Automatically correct playback position during playback</string>
+    <string name="pref_syncplay_speed_to_sync">Use SpeedToSync</string>
+    <string name="pref_syncplay_speed_to_sync_description">Speed up playback to catch up with the group</string>
+    <string name="pref_syncplay_min_delay_speed_to_sync">Minimum delay for SpeedToSync</string>
+    <string name="pref_syncplay_min_delay_speed_to_sync_description">Minimum delay before SpeedToSync kicks in: %d ms</string>
+    <string name="pref_syncplay_max_delay_speed_to_sync">Maximum delay for SpeedToSync</string>
+    <string name="pref_syncplay_max_delay_speed_to_sync_description">Switch to SkipToSync above this delay: %d ms</string>
+    <string name="pref_syncplay_speed_to_sync_duration">SpeedToSync duration</string>
+    <string name="pref_syncplay_speed_to_sync_duration_description">Duration for speeding up playback: %d ms</string>
+    <string name="pref_syncplay_skip_to_sync">Use SkipToSync</string>
+    <string name="pref_syncplay_skip_to_sync_description">Seek to the correct position when too far behind</string>
+    <string name="pref_syncplay_min_delay_skip_to_sync">Minimum delay for SkipToSync</string>
+    <string name="pref_syncplay_min_delay_skip_to_sync_description">Minimum delay before SkipToSync kicks in: %d ms</string>
+    <string name="pref_syncplay_time_settings">Time Synchronization</string>
+    <string name="pref_syncplay_extra_time_offset">Extra time offset</string>
+    <string name="pref_syncplay_extra_time_offset_description">Manual time offset adjustment: %d ms</string>
+    <string name="syncplay">SyncPlay</string>
+    <string name="syncplay_enabled">SyncPlay enabled</string>
+    <string name="syncplay_disabled">SyncPlay disabled</string>
+    <string name="syncplay_in_group">In a Group</string>
+    <string name="syncplay_not_in_group">Not in a Group</string>
+    <string name="syncplay_group_info">%1$s • %2$d participants</string>
+    <string name="syncplay_description">Watch together with friends in sync</string>
+    <string name="syncplay_unknown_group">Unknown Group</string>
+    <string name="syncplay_participants_count">%1$d participants</string>
+    <string name="syncplay_create_group">Create new group</string>
+    <string name="syncplay_create_group_description">Start a new watch party</string>
+    <string name="syncplay_join_group">Join group</string>
+    <string name="syncplay_leave_group">Leave group</string>
+    <string name="syncplay_leave_group_description">Leave the current watch party</string>
+    <string name="syncplay_refresh_groups">Refresh groups</string>
+    <string name="syncplay_refresh_groups_description">Look for available watch parties</string>
+    <string name="syncplay_available_groups">Available Groups</string>
+    <string name="syncplay_join_existing">Join an existing group</string>
+    <string name="syncplay_groups_found">%1$d groups found</string>
+    <string name="syncplay_group_name">Group name</string>
+    <string name="syncplay_no_groups">No groups available</string>
+    <string name="syncplay_no_groups_description">Create a new group to start a watch party</string>
+    <string name="lbl_close">Close</string>
+    <string name="syncplay_settings">Einstellungen</string>
+    <string name="syncplay_settings_description">Configure SyncPlay settings</string>
+    <string name="syncplay_resume_playback">Resume playback</string>
+    <string name="syncplay_resume_playback_description">Start playing the group\'s content</string>
+    <string name="syncplay_halt_playback">Pause playback</string>
+    <string name="syncplay_halt_playback_description">Stop following group playback temporarily</string>
+    <string name="syncplay_user_joined">%s joined the SyncPlay group</string>
+    <string name="syncplay_user_left">%s left the SyncPlay group</string>
+    <string name="syncplay_group_default_name">%s\'s Group</string>
+
+    <!-- Genres Grid -->
+    <string name="all_libraries">Alle Bibliotheken</string>
+    <string name="no_genres_found">Keine Genres gefunden</string>
+    <string name="sort_a_z">A-Z</string>
+    <string name="sort_z_a">Z-A</string>
+    <string name="sort_most_items">Meinsten Elemente</string>
+    <string name="sort_least_items">Wenigsten Elemente</string>
+    <string name="sort_random">Zufall</string>
+    <string name="msg_error_loading_data">Elemente konnten nicht geladen werden</string>
+    <plurals name="genre_item_count">
+        <item quantity="one">%1$d Elemente</item>
+        <item quantity="other">%1$d Elemente</item>
+    </plurals>
 </resources>
